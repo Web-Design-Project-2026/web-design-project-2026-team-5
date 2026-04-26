@@ -1,5 +1,11 @@
+import NavLink from "./ui/NavLink";
+
 function Navbar() {
-    return <div className="text-xs-regular">Navbar</div>;
+    return (
+        <nav>
+            <NavLink href="/">Home</NavLink>
+        </nav>
+    )
 }
 
 export default Navbar;
