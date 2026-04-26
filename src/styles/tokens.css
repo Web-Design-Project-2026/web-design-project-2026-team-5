@@ -124,8 +124,6 @@
     --fw-bold: 700;
     --fw-extrabold: 800;
 
-    
-
     /* ── RADIUS ── */
     --radius-xs: 2px;
     --radius-sm: 4px;
@@ -161,4 +159,174 @@
     --space-72: 288px;
     --space-80: 320px;
     --space-96: 384px;
+}
+
+/* ── TEXT STYLES ── */
+
+/* Headings */
+.heading-display {
+    font-size: var(--text-5xl);
+    line-height: var(--lh-5xl);
+    font-weight: var(--fw-bold);
+    font-family: var(--font-sans);
+}
+
+.heading-1 {
+    font-size: var(--text-4xl);
+    line-height: var(--lh-4xl);
+    font-weight: var(--fw-bold);
+    font-family: var(--font-sans);
+}
+
+.heading-2 {
+    font-size: var(--text-3xl);
+    line-height: var(--lh-3xl);
+    font-weight: var(--fw-semibold);
+    font-family: var(--font-sans);
+}
+
+.heading-3 {
+    font-size: var(--text-2xl);
+    line-height: var(--lh-2xl);
+    font-weight: var(--fw-semibold);
+    font-family: var(--font-sans);
+}
+
+.heading-4 {
+    font-size: var(--text-xl);
+    line-height: var(--lh-xl);
+    font-weight: var(--fw-semibold);
+    font-family: var(--font-sans);
+}
+
+/* text-xs */
+.text-xs-regular {
+    font-size: var(--text-xs);
+    line-height: var(--lh-xs);
+    font-weight: var(--fw-normal);
+}
+.text-xs-medium {
+    font-size: var(--text-xs);
+    line-height: var(--lh-xs);
+    font-weight: var(--fw-medium);
+}
+.text-xs-semibold {
+    font-size: var(--text-xs);
+    line-height: var(--lh-xs);
+    font-weight: var(--fw-semibold);
+}
+.text-xs-bold {
+    font-size: var(--text-xs);
+    line-height: var(--lh-xs);
+    font-weight: var(--fw-bold);
+}
+
+/* text-sm */
+.text-sm-regular {
+    font-size: var(--text-sm);
+    line-height: var(--lh-sm);
+    font-weight: var(--fw-normal);
+}
+.text-sm-medium {
+    font-size: var(--text-sm);
+    line-height: var(--lh-sm);
+    font-weight: var(--fw-medium);
+}
+.text-sm-semibold {
+    font-size: var(--text-sm);
+    line-height: var(--lh-sm);
+    font-weight: var(--fw-semibold);
+}
+.text-sm-bold {
+    font-size: var(--text-sm);
+    line-height: var(--lh-sm);
+    font-weight: var(--fw-bold);
+}
+
+/* text-base */
+.text-base-regular {
+    font-size: var(--text-base);
+    line-height: var(--lh-base);
+    font-weight: var(--fw-normal);
+}
+.text-base-medium {
+    font-size: var(--text-base);
+    line-height: var(--lh-base);
+    font-weight: var(--fw-medium);
+}
+.text-base-semibold {
+    font-size: var(--text-base);
+    line-height: var(--lh-base);
+    font-weight: var(--fw-semibold);
+}
+.text-base-bold {
+    font-size: var(--text-base);
+    line-height: var(--lh-base);
+    font-weight: var(--fw-bold);
+}
+
+/* text-lg */
+.text-lg-regular {
+    font-size: var(--text-lg);
+    line-height: var(--lh-lg);
+    font-weight: var(--fw-normal);
+}
+.text-lg-medium {
+    font-size: var(--text-lg);
+    line-height: var(--lh-lg);
+    font-weight: var(--fw-medium);
+}
+.text-lg-semibold {
+    font-size: var(--text-lg);
+    line-height: var(--lh-lg);
+    font-weight: var(--fw-semibold);
+}
+.text-lg-bold {
+    font-size: var(--text-lg);
+    line-height: var(--lh-lg);
+    font-weight: var(--fw-bold);
+}
+
+/* text-xl */
+.text-xl-regular {
+    font-size: var(--text-xl);
+    line-height: var(--lh-xl);
+    font-weight: var(--fw-normal);
+}
+.text-xl-medium {
+    font-size: var(--text-xl);
+    line-height: var(--lh-xl);
+    font-weight: var(--fw-medium);
+}
+.text-xl-semibold {
+    font-size: var(--text-xl);
+    line-height: var(--lh-xl);
+    font-weight: var(--fw-semibold);
+}
+.text-xl-bold {
+    font-size: var(--text-xl);
+    line-height: var(--lh-xl);
+    font-weight: var(--fw-bold);
+}
+
+/* text-2xl */
+.text-2xl-regular {
+    font-size: var(--text-2xl);
+    line-height: var(--lh-2xl);
+    font-weight: var(--fw-normal);
+}
+.text-2xl-medium {
+    font-size: var(--text-2xl);
+    line-height: var(--lh-2xl);
+    font-weight: var(--fw-medium);
+}
+.text-2xl-semibold {
+    font-size: var(--text-2xl);
+    line-height: var(--lh-2xl);
+    font-weight: var(--fw-semibold);
+}
+.text-2xl-bold {
+    font-size: var(--text-2xl);
+    line-height: var(--lh-2xl);
+    font-weight: var(--fw-bold);
 }
