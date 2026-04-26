@@ -1,5 +1,5 @@
 function Navbar() {
-    return <div>Navbar</div>;
+    return <div className="text-xs-regular">Navbar</div>;
 }
 
 export default Navbar;

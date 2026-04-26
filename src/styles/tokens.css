@@ -93,7 +93,6 @@
     --font-sans: "Rethink Sans", sans-serif;
     --font-roboto: "Roboto", sans-serif;
     --font-mono: "Cascadia Code", monospace;
-    --font-family: "Rethink Sans", sans-serif;
 
     --text-xs: 12px;
     --text-sm: 14px;
@@ -163,6 +162,17 @@
 
 /* ── TEXT STYLES ── */
 
+/* Fonts */
+.font-roboto {
+    font-family: var(--font-roboto) !important;
+}
+.font-mono {
+    font-family: var(--font-mono) !important;
+}
+.font-sans {
+    font-family: var(--font-sans) !important;
+}
+
 /* Headings */
 .heading-display {
     font-size: var(--text-5xl);
@@ -204,21 +214,25 @@
     font-size: var(--text-xs);
     line-height: var(--lh-xs);
     font-weight: var(--fw-normal);
+    font-family: var(--font-sans);
 }
 .text-xs-medium {
     font-size: var(--text-xs);
     line-height: var(--lh-xs);
     font-weight: var(--fw-medium);
+    font-family: var(--font-sans);
 }
 .text-xs-semibold {
     font-size: var(--text-xs);
     line-height: var(--lh-xs);
     font-weight: var(--fw-semibold);
+    font-family: var(--font-sans);
 }
 .text-xs-bold {
     font-size: var(--text-xs);
     line-height: var(--lh-xs);
     font-weight: var(--fw-bold);
+    font-family: var(--font-sans);
 }
 
 /* text-sm */
@@ -226,21 +240,25 @@
     font-size: var(--text-sm);
     line-height: var(--lh-sm);
     font-weight: var(--fw-normal);
+    font-family: var(--font-sans);
 }
 .text-sm-medium {
     font-size: var(--text-sm);
     line-height: var(--lh-sm);
     font-weight: var(--fw-medium);
+    font-family: var(--font-sans);
 }
 .text-sm-semibold {
     font-size: var(--text-sm);
     line-height: var(--lh-sm);
     font-weight: var(--fw-semibold);
+    font-family: var(--font-sans);
 }
 .text-sm-bold {
     font-size: var(--text-sm);
     line-height: var(--lh-sm);
     font-weight: var(--fw-bold);
+    font-family: var(--font-sans);
 }
 
 /* text-base */
@@ -248,21 +266,25 @@
     font-size: var(--text-base);
     line-height: var(--lh-base);
     font-weight: var(--fw-normal);
+    font-family: var(--font-sans);
 }
 .text-base-medium {
     font-size: var(--text-base);
     line-height: var(--lh-base);
     font-weight: var(--fw-medium);
+    font-family: var(--font-sans);
 }
 .text-base-semibold {
     font-size: var(--text-base);
     line-height: var(--lh-base);
     font-weight: var(--fw-semibold);
+    font-family: var(--font-sans);
 }
 .text-base-bold {
     font-size: var(--text-base);
     line-height: var(--lh-base);
     font-weight: var(--fw-bold);
+    font-family: var(--font-sans);
 }
 
 /* text-lg */
@@ -270,21 +292,25 @@
     font-size: var(--text-lg);
     line-height: var(--lh-lg);
     font-weight: var(--fw-normal);
+    font-family: var(--font-sans);
 }
 .text-lg-medium {
     font-size: var(--text-lg);
     line-height: var(--lh-lg);
     font-weight: var(--fw-medium);
+    font-family: var(--font-sans);
 }
 .text-lg-semibold {
     font-size: var(--text-lg);
     line-height: var(--lh-lg);
     font-weight: var(--fw-semibold);
+    font-family: var(--font-sans);
 }
 .text-lg-bold {
     font-size: var(--text-lg);
     line-height: var(--lh-lg);
     font-weight: var(--fw-bold);
+    font-family: var(--font-sans);
 }
 
 /* text-xl */
@@ -292,21 +318,25 @@
     font-size: var(--text-xl);
     line-height: var(--lh-xl);
     font-weight: var(--fw-normal);
+    font-family: var(--font-sans);
 }
 .text-xl-medium {
     font-size: var(--text-xl);
     line-height: var(--lh-xl);
     font-weight: var(--fw-medium);
+    font-family: var(--font-sans);
 }
 .text-xl-semibold {
     font-size: var(--text-xl);
     line-height: var(--lh-xl);
     font-weight: var(--fw-semibold);
+    font-family: var(--font-sans);
 }
 .text-xl-bold {
     font-size: var(--text-xl);
     line-height: var(--lh-xl);
     font-weight: var(--fw-bold);
+    font-family: var(--font-sans);
 }
 
 /* text-2xl */
@@ -314,19 +344,23 @@
     font-size: var(--text-2xl);
     line-height: var(--lh-2xl);
     font-weight: var(--fw-normal);
+    font-family: var(--font-sans);
 }
 .text-2xl-medium {
     font-size: var(--text-2xl);
     line-height: var(--lh-2xl);
     font-weight: var(--fw-medium);
+    font-family: var(--font-sans);
 }
 .text-2xl-semibold {
     font-size: var(--text-2xl);
     line-height: var(--lh-2xl);
     font-weight: var(--fw-semibold);
+    font-family: var(--font-sans);
 }
 .text-2xl-bold {
     font-size: var(--text-2xl);
     line-height: var(--lh-2xl);
     font-weight: var(--fw-bold);
+    font-family: var(--font-sans);
 }
