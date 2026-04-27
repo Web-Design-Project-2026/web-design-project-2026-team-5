@@ -23,7 +23,9 @@ function Header() {
 
                 <div className="header__actions">
                     <Button variant="outline">Login</Button>
-                    <Button>Book a Free Demo</Button>
+                    <Link to="/contact">
+                        <Button>Book a Free Demo</Button>
+                    </Link>
                 </div>
             </div>
         </header>
