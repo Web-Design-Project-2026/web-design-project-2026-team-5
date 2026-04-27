@@ -2,7 +2,7 @@ import NavLink from "./ui/NavLink";
 import { ArrowUpRight } from "lucide-react";
 import Button from "./ui/Button";
 
-function Navbar() {
+function Header() {
     return (
         <nav>
             <NavLink href="/">
@@ -18,4 +18,4 @@ function Navbar() {
     );
 }
 
-export default Navbar;
+export default Header;
