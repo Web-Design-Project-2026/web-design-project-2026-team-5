@@ -17,18 +17,27 @@
     overflow: hidden;
     position: relative;
     border-top: 1px solid var(--border-default);
+    background-color: var(--bg-page);
+}
 
-    /* background image */
+.trust__label-row::before {
+    content: "";
+    position: absolute;
+    inset: 0; /* fills the entire parent */
     background-image: repeating-linear-gradient(
-        -45deg,
-        var(--border-default) 1px,
+        315deg,
+        var(--border-default) 0px,
         var(--border-default) 1px,
         transparent 1px,
-        transparent 20px
+        transparent 15px
     );
-    background-color: var(--bg-page);
+    opacity: 0.5;
 }
 
 .trust__label {
     color: var(--text-secondary);
+    position: relative;
+    z-index: 1;
 }
+
+
