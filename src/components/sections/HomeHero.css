@@ -19,13 +19,13 @@
 }
 
 .hero__bg {
-    background-image: url("https://res.cloudinary.com/dp90xtgcp/image/upload/v1777320106/HeroBg_vmhwz1.png");
+    background-image: url("https://res.cloudinary.com/dp90xtgcp/image/upload/v1777320409/HeroBg_onmxg8.png");
     background-size: cover;
     background-position: center;
     position: absolute;
     inset: 0;
     z-index: 0;
-    opacity: 0.2;
+    opacity: 1;
 }
 
 .hero__content {
