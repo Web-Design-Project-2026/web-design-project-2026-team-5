@@ -1,5 +1,10 @@
+import HomeHero from "../components/sections/HomeHero";
 function Home() {
-    return <div>Home</div>;
+    return (
+        <main>
+            <HomeHero></HomeHero>
+        </main>
+    );
 }
 
 export default Home;
