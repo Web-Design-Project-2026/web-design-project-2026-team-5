@@ -16,7 +16,7 @@ function Button({
         type= {type}
         onClick = {onClick}
         disabled = {disabled}
-        className= {`btn btn--${variant} btn--${size} ${className}`}
+        className= {`btn btn--${variant}  btn--${size} ${className}`}
         >
             {iconLeading && <span className='btn__icon'>{iconLeading}</span>}
             {children && <span>{children}</span>}

@@ -9,9 +9,9 @@ function Navbar() {
                 Home <ArrowUpRight size={16} />
             </NavLink>
             <Button
-                variant="outline"
+                variant="solid"
                 size="md"
-                iconLeading={<ArrowUpRight size={16}></ArrowUpRight>}>
+                iconTrailing={<ArrowUpRight size={16} ></ArrowUpRight>}>
                 Book a Free Demo
             </Button>
         </nav>
