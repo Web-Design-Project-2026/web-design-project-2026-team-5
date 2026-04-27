@@ -1,4 +1,5 @@
 import NavLink from "./ui/NavLink";
+import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
 import Button from "./ui/Button";
 import Logo from "../assets/logoInnoBrain.svg";
@@ -7,7 +8,9 @@ function Header() {
     return (
         <header>
             <div>
-                <img src={Logo} alt="InnoBrain" />
+                <Link to="/">
+                    <img src={Logo} alt="InnoBrain" />
+                </Link>
             </div>
 
             <nav>
@@ -22,7 +25,6 @@ function Header() {
                 <Button variant="outline">Login</Button>
                 <Button>Book a Free Demo</Button>
             </div>
-
         </header>
     );
 }

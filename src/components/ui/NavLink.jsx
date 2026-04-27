@@ -1,10 +1,11 @@
 import './NavLink.css'
+import { Link } from 'react-router-dom'
 
-function NavLink({ children, href}){
+function NavLink({ children, to}){
     return (
-        <a href="href" className='nav-link'>
+        <Link to={to} className='nav-link'>
             {children}
-        </a>
+        </Link>
     )
 }
 
