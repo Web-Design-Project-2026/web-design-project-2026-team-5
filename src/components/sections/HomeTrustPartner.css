@@ -1,0 +1,34 @@
+.trust {
+    padding: 0 var(--space-20);
+}
+
+.trust__inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    border-left: 1px solid var(--border-default);
+    border-right: 1px solid var(--border-default);
+}
+
+.trust__label-row {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    border-top: 1px solid var(--border-default);
+
+    /* background image */
+    background-image: repeating-linear-gradient(
+        -45deg,
+        var(--border-default) 1px,
+        var(--border-default) 1px,
+        transparent 1px,
+        transparent 20px
+    );
+    background-color: var(--bg-page);
+}
+
+.trust__label {
+    color: var(--text-secondary);
+}
