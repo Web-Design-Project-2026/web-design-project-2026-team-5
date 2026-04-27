@@ -1,5 +1,6 @@
 import NavLink from "./ui/NavLink";
 import { ArrowUpRight } from "lucide-react";
+import Button from "./ui/Button";
 
 function Navbar() {
     return (
@@ -7,6 +8,12 @@ function Navbar() {
             <NavLink href="/">
                 Home <ArrowUpRight size={16} />
             </NavLink>
+            <Button
+                variant="outline"
+                size="md"
+                iconLeading={<ArrowUpRight size={16}></ArrowUpRight>}>
+                Book a Free Demo
+            </Button>
         </nav>
     );
 }

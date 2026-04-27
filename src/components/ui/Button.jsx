@@ -1,7 +1,7 @@
 import './Button.css'
 
 function Button({
-    chilren,
+    children,
     variant = 'solid', //mapping from figma
     size = 'md', // md | lg | xl
     iconLeading,
@@ -16,9 +16,13 @@ function Button({
         type= {type}
         onClick = {onClick}
         disabled = {disabled}
-        className= {'btn btn--${variant} btn--${size} ${className}'}
+        className= {`btn btn--${variant} btn--${size} ${className}`}
         >
-            {iconLeading && <span className=''></span>}
+            {iconLeading && <span className='btn__icon'>{iconLeading}</span>}
+            {children && <span>{children}</span>}
+            {iconTrailing && <span className='btn__icon'>{iconTrailing}</span>}
         </button>
     )
 }
+
+export default Button
