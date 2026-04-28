@@ -60,7 +60,7 @@ function HomeHero() {
                     <div className="hero__actions">
                         <Link to="/contact">
                             <Button
-                                size="lg"
+                                size="xl"
                                 iconTrailing={
                                     <ArrowRight width={16}></ArrowRight>
                                 }>
@@ -68,7 +68,7 @@ function HomeHero() {
                             </Button>
                         </Link>
                         <Link to="/platform">
-                            <Button size="lg" variant="outline">
+                            <Button size="xl" variant="outline">
                                 Watch overview
                             </Button>
                         </Link>
