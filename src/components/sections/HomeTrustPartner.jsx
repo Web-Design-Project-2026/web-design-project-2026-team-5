@@ -20,7 +20,7 @@ const logos = [
         alt: "Einride",
     },
     {
-        src: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777324298/einride_uz1lyn.png",
+        src: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777324298/drivesweden_u5j92l.png",
         alt: "Drive Sweden",
     },
     {
@@ -51,7 +51,9 @@ function HomeTrustpartner() {
             <div className="trust__inner">
                 {/* Label Row */}
                 <div className="trust__label-row">
-                    <div className="trust__label text-lg-bold">TRUSTED WITH THE BEST</div>
+                    <div className="trust__label text-lg-bold">
+                        TRUSTED WITH THE BEST
+                    </div>
                 </div>
 
                 {/* logo grid */}
