@@ -103,6 +103,26 @@
     background: var(--bg-page);
 }
 
+/* Soft glow */
+.sectors__card::after {
+    content: '';
+    position: absolute;
+    top: -56px;
+    right: -56px;
+    width: 174px;
+    height: 174px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(37, 99, 235, 0.15) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+    transition: opacity 300ms ease;
+}
+
+/* Hide glow on hover — image takes over */
+.sectors__card:hover::after {
+    opacity: 0;
+}
+
 /* Bottom row cards get a bottom border */
 .sectors__card:nth-child(n + 4) {
     border-bottom: 1px solid var(--border-default);
