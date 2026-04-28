@@ -16,7 +16,7 @@ const sectors = [
         title: "Mobility",
         description:
             "Real-time operator-state metrics for early warnings and adaptive assistance validation.",
-        img: "",
+        img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777381987/Mobility_xbt6up.png",
     },
     {
         id: "training",
@@ -24,7 +24,7 @@ const sectors = [
         title: "Training & Simulation",
         description:
             "Objective cognitive metrics to personalize training and verify effectiveness.",
-        img: "",
+        img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777381988/Simulation_otibnu.png",
     },
     {
         id: "aviation",
@@ -32,7 +32,7 @@ const sectors = [
         title: "Aviation",
         description:
             "Crew-state indicators for fatigue management, debriefing, and mission planning.",
-        img: "",
+        img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777381987/Aviation_ljy5yv.png",
     },
     {
         id: "manufacturing",
@@ -40,7 +40,7 @@ const sectors = [
         title: "Manufacturing & Logistics",
         description:
             "Human-state analytics for staffing optimization and proactive safety.",
-        img: "",
+        img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777381987/Logicstic_c8hpqi.png",
     },
     {
         id: "cognitive",
@@ -48,7 +48,7 @@ const sectors = [
         title: "Cognitive Augmentation",
         description:
             "Real-time cognitive technologies that enhance decision-making and attention (e.g., Esports).",
-        img: "",
+        img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777381987/Cognitive_athth8.png",
     },
     {
         id: "human",
@@ -56,7 +56,7 @@ const sectors = [
         title: "HMI, Human Factors & User Research",
         description:
             "Objective human-state data to inform interface design and user behavior analysis.",
-        img: "",
+        img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777381988/UX_xer7hl.png",
     },
 ];
 
