@@ -1,4 +1,5 @@
 import "./HomeStats.css";
+import CountUp from "../effects/CountUp";
 
 const partners = [
     {
@@ -21,23 +22,35 @@ const partners = [
 const stats = [
     {
         id: "funding",
-        value: "SEK 5.1M",
+        prefix: "SEK ",
+        to: 5.1,
+        decimals: 1,
+        suffix: "M",
         description: "Government R&D funding via Vinnova",
     },
     {
         id: "projects",
-        value: "8",
+        prefix: "",
+        to: 8,
+        decimals: 0,
+        suffix: "",
         description:
             "Research projects validated across aviation, road & medical",
     },
     {
         id: "years",
-        value: "10+",
+        prefix: "",
+        to: 10,
+        decimals: 0,
+        suffix: "+",
         description: "Years of applied neurotechnology research",
     },
     {
         id: "awards",
-        value: "2",
+        prefix: "",
+        to: 2,
+        decimals: 0,
+        suffix: "",
         description: "International awards — SKAPA Prize & IVA Top 100",
     },
 ];
@@ -106,7 +119,15 @@ function HomeStats() {
                     {stats.map((stat) => (
                         <div key={stat.id} className="stats__card">
                             <div className="stats__card-value">
-                                {stat.value}
+                                {stat.prefix && <span>{stat.prefix}</span>}
+                                <CountUp
+                                    from={0}
+                                    to={stat.to}
+                                    decimals={stat.decimals}
+                                    duration={2}
+                                    delay={0}
+                                />
+                                {stat.suffix && <span>{stat.suffix}</span>}
                             </div>
                             <p className="stats__card-desc">
                                 {stat.description}
