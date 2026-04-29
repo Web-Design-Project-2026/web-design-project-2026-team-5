@@ -2,6 +2,7 @@ import HomeHero from "../components/sections/HomeHero";
 import HomeTrustpartner from "../components/sections/HomeTrustPartner";
 import ValueProp from "../components/sections/ValueProp";
 import Sectors from "../components/sections/Sectors";
+import HowItWorks from "../components/sections/HowItWorks";
 function Home() {
     return (
         <main>
@@ -9,6 +10,7 @@ function Home() {
             <HomeTrustpartner />
             <ValueProp />
             <Sectors />
+            <HowItWorks />
         </main>
     );
 }
