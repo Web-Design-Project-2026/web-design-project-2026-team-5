@@ -109,7 +109,7 @@
     border-top: 1px solid var(--border-default);
 }
 
-/* Vertical timeline running through left side */
+/* Vertical timeline */
 .hiw__timeline {
     position: absolute;
     left: 32px;
@@ -150,7 +150,7 @@
     color: var(--brand-primary);
 }
 
-/* Content sits to the right of the timeline */
+/* Content */
 .hiw__content {
     padding-left: 56px;
     display: flex;
@@ -212,3 +212,4 @@
 .hiw__row:last-child .hiw__image-panel {
     border-bottom: 1px solid var(--border-default);
 }
+

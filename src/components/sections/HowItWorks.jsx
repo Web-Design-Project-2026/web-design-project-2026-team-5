@@ -13,6 +13,7 @@ const steps = [
         title: 'Stream',
         description: 'The moment a session begins, raw EEG data flows continuously to the InnoBrain dashboard in real time.',
         img: 'https://res.cloudinary.com/dp90xtgcp/image/upload/v1777445019/Stream_zit174.png',
+        alt:'Stream InnoBrain',
     },
     {
         number: 3,
@@ -50,7 +51,6 @@ function HowItWorks() {
                 {/* Stripe | Steps | Stripe */}
                 <div className="hiw__grid-wrapper">
 
-                    {/* Left stripe */}
                     <div className="hiw__stripe" aria-hidden="true" />
 
                     {/* Step rows */}
