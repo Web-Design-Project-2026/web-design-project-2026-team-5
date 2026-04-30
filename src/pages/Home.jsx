@@ -5,6 +5,7 @@ import Sectors from "../components/sections/Sectors";
 import HowItWorks from "../components/sections/HowItWorks";
 import HomeStats from "../components/sections/HomeStats";
 import Capabilities from "../components/sections/Capabilities";
+import MainCTA from "../components/sections/MainCTA";
 function Home() {
     return (
         <main>
@@ -15,6 +16,7 @@ function Home() {
             <HowItWorks />
             <HomeStats />
             <Capabilities />
+            <MainCTA />
         </main>
     );
 }
