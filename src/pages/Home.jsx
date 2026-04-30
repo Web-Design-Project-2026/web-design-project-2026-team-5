@@ -4,6 +4,7 @@ import ValueProp from "../components/sections/ValueProp";
 import Sectors from "../components/sections/Sectors";
 import HowItWorks from "../components/sections/HowItWorks";
 import HomeStats from "../components/sections/HomeStats";
+import Capabilities from "../components/sections/Capabilities";
 function Home() {
     return (
         <main>
@@ -13,6 +14,7 @@ function Home() {
             <Sectors />
             <HowItWorks />
             <HomeStats />
+            <Capabilities />
         </main>
     );
 }
