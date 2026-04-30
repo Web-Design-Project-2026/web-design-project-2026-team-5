@@ -84,17 +84,38 @@ const capabilities = [
 
 /* Partner logo */
 const partners = [
-    { img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557282/Google_mlbxsi.png", alt: "Google" },
-    { img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557284/Nvidia_jqsneo.png", alt: "NVIDIA Inception Program" },
-    { img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557278/Aws_l8beh7.png", alt: "AWS Startups" },
-    { img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557289/Urban_cnagcq.png", alt: "Urban Mobility" },
-    { img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557280/Eurostars_nnfzuv.png", alt: "Eurostars" },
-    { img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557285/Startup_grzguv.png", alt: "Startup Sweden" },
+    {
+        img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557282/Google_mlbxsi.png",
+        alt: "Google",
+    },
+    {
+        img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557284/Nvidia_jqsneo.png",
+        alt: "NVIDIA Inception Program",
+    },
+    {
+        img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557278/Aws_l8beh7.png",
+        alt: "AWS Startups",
+    },
+    {
+        img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557289/Urban_cnagcq.png",
+        alt: "Urban Mobility",
+    },
     {
         img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557280/Eurostars_nnfzuv.png",
+        alt: "Eurostars",
+    },
+    {
+        img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557285/Startup_grzguv.png",
+        alt: "Startup Sweden",
+    },
+    {
+        img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557287/Stockholm_dnvzk1.png",
         alt: "European Institute of Innovation & Entrepreneurship",
     },
-    { img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557257/Almi_zsunnf.png", alt: "AIMI" },
+    {
+        img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557257/Almi_zsunnf.png",
+        alt: "AIMI",
+    },
 ];
 
 function Capabilities() {
@@ -132,12 +153,9 @@ function Capabilities() {
                                         {cap.title}
                                     </h3>
                                     <div className="capabilities__card-footer">
-                                        <img
-                                            src={cap.icon}
-                                            alt=""
-                                            className="capabilities__card-icon"
-                                            aria-hidden="true"
-                                        />
+                                        <div className="capabilities__card-icon">
+                                            {cap.icon}
+                                        </div>
                                         <p className="capabilities__card-desc">
                                             {cap.description}
                                         </p>
