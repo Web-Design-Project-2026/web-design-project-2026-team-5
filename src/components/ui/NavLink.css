@@ -1,0 +1,22 @@
+.nav-link {
+    display: inline-flex;
+    height: 36px;
+    padding: 0px var(--space-3-5);
+    justify-content: center;
+    align-items: center;
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    font-style: normal;
+    font-weight: var(--fw-medium);
+    line-height: var(--lh-sm);
+    text-decoration: none;
+    border-radius: var(--radius-md);
+    transition:
+        background 300ms ease,
+        color 300ms ease;
+}
+
+.nav-link:hover {
+    background: var(--neutral-100);
+}
