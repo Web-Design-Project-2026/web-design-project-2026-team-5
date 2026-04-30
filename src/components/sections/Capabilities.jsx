@@ -84,18 +84,17 @@ const capabilities = [
 
 /* Partner logo */
 const partners = [
-    { id: "google", img: "", alt: "Google" },
-    { id: "nvidia", img: "", alt: "NVIDIA Inception Program" },
-    { id: "aws", img: "", alt: "AWS Startups" },
-    { id: "urban-mobility", img: "", alt: "Urban Mobility" },
-    { id: "eurostars", img: "", alt: "Eurostars" },
-    { id: "startup-sweden", img: "", alt: "Startup Sweden" },
+    { img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557282/Google_mlbxsi.png", alt: "Google" },
+    { img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557284/Nvidia_jqsneo.png", alt: "NVIDIA Inception Program" },
+    { img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557278/Aws_l8beh7.png", alt: "AWS Startups" },
+    { img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557289/Urban_cnagcq.png", alt: "Urban Mobility" },
+    { img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557280/Eurostars_nnfzuv.png", alt: "Eurostars" },
+    { img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557285/Startup_grzguv.png", alt: "Startup Sweden" },
     {
-        id: "entrepreneurship",
-        img: "",
+        img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557280/Eurostars_nnfzuv.png",
         alt: "European Institute of Innovation & Entrepreneurship",
     },
-    { id: "aimi", img: "", alt: "AIMI" },
+    { img: "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777557257/Almi_zsunnf.png", alt: "AIMI" },
 ];
 
 function Capabilities() {
@@ -157,9 +156,7 @@ function Capabilities() {
                         {/* logo */}
                         <div className="capabilities__logos">
                             {partners.map((p) => (
-                                <div
-                                    key={p.id}
-                                    className="capabilities__logo-cell">
+                                <div className="capabilities__logo-cell">
                                     <img
                                         src={p.img}
                                         alt={p.alt}
