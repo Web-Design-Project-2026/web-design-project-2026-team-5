@@ -3,18 +3,18 @@ import { ArrowRight } from "lucide-react";
 import Button from "../ui/Button";
 import "./MainCTA.css";
 
-const imgBg = "";
+
+const imgBg =
+    "https://res.cloudinary.com/dp90xtgcp/image/upload/v1777676051/CTAgradient_vpbvot.png";
 
 function MainCTA() {
     return (
         <section className="cta">
             <div className="cta__inner">
-                <img
-                    src={imgBg}
-                    alt=""
-                    className="cta__bg"
-                    aria-hidden="true"
-                />
+
+                <div className="gradient__bg">
+                    <img src={imgBg} alt="" />
+                </div>
 
                 {/* Content */}
                 <div className="cta__content">
