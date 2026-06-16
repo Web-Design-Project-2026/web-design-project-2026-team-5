@@ -1,0 +1,111 @@
+.pawards {
+    padding: 0 var(--space-20);
+    background: var(--bg-page);
+}
+
+.pawards__inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    border-left: 1px solid var(--border-default);
+    border-right: 1px solid var(--border-default);
+    border-bottom: 1px solid var(--border-default);
+}
+
+.pawards__grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.pawards__card {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--border-default);
+    border-right: 1px solid var(--border-default);
+}
+
+.pawards__card:last-child {
+    border-right: none;
+}
+
+.pawards__logo-wrap {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-5);
+    border-bottom: 1px solid var(--border-default);
+}
+
+.pawards__logo {
+    max-width: 100px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.pawards__desc {
+    flex: 1;
+    padding: var(--space-5);
+    font-family: var(--font-roboto);
+    font-size: var(--text-sm);
+    line-height: var(--lh-sm);
+    font-weight: var(--fw-regular);
+    color: var(--text-secondary);
+    margin: 0;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .pawards {
+        padding: 0 var(--space-10);
+    }
+
+    .pawards__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .pawards__card:last-child {
+        border-right: 1px solid var(--border-default);
+    }
+
+    .pawards__card:nth-child(3n) {
+        border-right: none;
+    }
+
+    .pawards__card:nth-child(n+4) {
+        border-top: 1px solid var(--border-default);
+    }
+}
+
+@media (max-width: 768px) {
+    .pawards {
+        padding: 0 var(--space-5);
+    }
+
+
+    .pawards__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pawards__card:nth-child(3n) {
+        border-right: 1px solid var(--border-default);
+    }
+
+    .pawards__card:nth-child(2n) {
+        border-right: none;
+    }
+
+    .pawards__card:nth-child(n+3) {
+        border-top: 1px solid var(--border-default);
+    }
+
+    .pawards__logo-wrap {
+        height: 90px;
+    }
+
+    .pawards__logo {
+        max-width: 80px;
+    }
+}
